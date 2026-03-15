@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title data-i18n="contact.meta.title">Contact | SRT TRADE</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.emailjs.com/sdk/3.2/email.min.js"></script>
+
+<script defer src="main.js"></script>
+<script defer src="mail.js"></script>
+
+</head>
+
+<body>
+
+<canvas id="site-bg"></canvas>
+
+<header class="header">
+
+<div class="logo-container">
+
+<img src="logo.png" class="logo" alt="SRT TRADE logo" data-i18n-alt="common.logoAlt">
+
+</div>
+
+<nav class="nav">
+
+<a href="index.html" data-i18n="nav.home">Home</a>
+<a href="about.html" data-i18n="nav.about">About</a>
+<a href="services.html" data-i18n="nav.services">Services</a>
+<a href="contact.html" data-i18n="nav.contact">Contact</a>
+
+</nav>
+
+<button id="lang-toggle" class="ghost-btn" data-current="en">TR</button>
+
+</header>
+
+<section class="page-hero">
+<div class="hero-content compact">
+<p class="eyebrow" data-i18n="contact.hero.eyebrow">Get In Touch</p>
+<h1 data-i18n="contact.title">Contact Us</h1>
+<p data-i18n="contact.lead">
+For sourcing enquiries, international trade partnerships, procurement requests,
+and commercial cooperation, contact our team in Istanbul.
+</p>
+</div>
+</section>
+
+<main class="page-shell">
+
+<section class="content-section">
+<div class="contact-layout">
+<article class="panel contact-card">
+<div class="panel-header">
+<p class="panel-title" data-i18n="contact.office.title">Corporate Contact</p>
+<span class="panel-tag" data-i18n="contact.office.tag">Office</span>
+</div>
+<ul class="bullet-list">
+<li>SRT TRADE IÇ VE DIŞ TİCARET A.Ş</li>
+<li>Nisbetiye Mahallesi, Nisbetiye Caddesi No:24 Da:17</li>
+<li>Beşiktaş / İstanbul / Türkiye</li>
+<li data-i18n="contact.office.phone">Phone: +90 552 572 1794</li>
+<li data-i18n="contact.office.email">Email: srttrade1@gmail.com</li>
+<li data-i18n="contact.office.enquiry">International sourcing and trade cooperation enquiries</li>
+</ul>
+</article>
+
+<article class="panel contact-card">
+<div class="panel-header">
+<p class="panel-title" data-i18n="contact.scope.title">Commercial Scope</p>
+<span class="panel-tag" data-i18n="contact.scope.tag">Profile</span>
+</div>
+<p data-i18n="contact.scope.body">
+The company works with manufacturers, producers, distributors, and buyers across
+multiple product categories and international markets, supporting procurement,
+logistics coordination, documentation, and compliance.
+</p>
+</article>
+<article class="panel contact-card">
+<div class="panel-header">
+<p class="panel-title" data-i18n="contact.form.title">Send an Enquiry</p>
+<span class="panel-tag" data-i18n="contact.form.tag">Form</span>
+</div>
+<form
+id="contact-form"
+data-public-key="YOUR_PUBLIC_KEY"
+data-service-id="YOUR_SERVICE_ID"
+data-template-id="YOUR_TEMPLATE_ID">
+
+<input id="name" name="name" placeholder="Name" data-i18n-placeholder="contact.form.name" required>
+
+<input id="email" name="email" type="email" placeholder="Email" data-i18n-placeholder="contact.form.email" required>
+
+<input id="phone" name="phone" type="tel" placeholder="Phone Number" data-i18n-placeholder="contact.form.phone" required>
+
+<textarea id="message" name="message" placeholder="Message" data-i18n-placeholder="contact.form.message" required></textarea>
+
+<button class="btn" type="submit" data-i18n="contact.button">Send Message</button>
+
+</form>
+</article>
+
+<article class="panel contact-card">
+<div class="panel-header">
+<p class="panel-title" data-i18n="contact.location.title">Location</p>
+<span class="panel-tag" data-i18n="contact.location.tag">Map</span>
+</div>
+<div class="map">
+
+<iframe
+src="https://maps.google.com/maps?q=Nisbetiye%20Mahallesi%20Nisbetiye%20Caddesi%2024%20Besiktas%20Istanbul&t=&z=15&output=embed"
+width="100%"
+height="400"
+style="border:0">
+</iframe>
+
+</div>
+</article>
+</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+<div class="footer-inner">
+<p class="footer-company">SRT TRADE IÇ VE DIŞ TİCARET A.Ş</p>
+<p class="footer-address">Nisbetiye Mahallesi, Nisbetiye Caddesi No:24 Da:17, Beşiktaş / İstanbul, Türkiye</p>
+<div class="footer-meta">
+<a href="tel:+905525721794">+90 552 572 1794</a>
+<a href="mailto:srttrade1@gmail.com">srttrade1@gmail.com</a>
+</div>
+<p class="footer-note" data-i18n="footer.note">For urgent sourcing, procurement, and international trade enquiries, our team is available 24/7 with direct response support.</p>
+<div class="footer-actions">
+<a class="ghost-btn footer-action" href="https://t.me/share/url?url=https://wa.me/905525721794&text=Hello%20SRT%20TRADE" target="_blank" rel="noreferrer">Telegram</a>
+<a class="ghost-btn footer-action" href="https://wa.me/905525721794" target="_blank" rel="noreferrer">WhatsApp</a>
+<a class="btn footer-action" href="tel:+905525721794" data-i18n="footer.call">Direct Call 24/7</a>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
